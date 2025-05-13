@@ -12,18 +12,48 @@ body{
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.197);
 }
 
 /*Encabezado factura*/
+
+.encabezado {
+    position: relative;
+}
+
+.info-empresa h2{
+    border-bottom: 3px solid rgb(53, 91, 129);
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .info-empresa{
     border-bottom: 2px solid rgb(53, 91, 129);
     margin-bottom: 20px;
 }
 
-.logo img{
+.logo img {
     position: absolute;
+    top: 10px;
+    right: 10px;
     width: 150px;
     height: 150px;
-    right: 260px;
+}
+
+/*cliente*/
+.cliente {
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid rgb(132, 186, 187);
+    border-radius: 5px;
+}
+
+.cliente h3{
+    text-align: center;
+    margin-top: -15px;
+}
+
+.cliente td{
+    padding: 11px;
 }

@@ -101,3 +101,23 @@ body{
 .adicional h3{
     text-align: center;
 }
+
+/* Pie de página */
+.pie {
+    color: #666;
+    border-top: 1px dashed #ccc;
+    padding-top: 15px;
+    margin: 10px;
+}
+
+.pie p{
+    text-align:right;
+}
+
+.button{
+    background: rgb(93, 125, 177);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}

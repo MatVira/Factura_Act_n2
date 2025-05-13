@@ -91,3 +91,13 @@ body{
     width: 170px;
 }
 
+/*Información adicional de la compra y redes sociales*/
+.adicional {
+    background-color: azure;
+    border: 1px solid rgb(132, 186, 187);
+    border-radius: 5px;
+}
+
+.adicional h3{
+    text-align: center;
+}

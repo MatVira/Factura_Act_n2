@@ -80,3 +80,14 @@ body{
 .productos thead{
     background-color: azure;
 }
+
+/*total de compra realizada*/
+.total {
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 170px;
+}
+
